@@ -14,4 +14,7 @@ function App(props) {
   );
 }
 
-ReactDOM.render(<App />, document.querySelector("#application-root"));
+ReactDOM.render(
+  React.createElement(App),
+  document.querySelector("#application-root")
+);

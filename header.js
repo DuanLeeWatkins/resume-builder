@@ -9,7 +9,7 @@ function Header() {
           alt="Malaga Panoramic"
         ></img>
       </div>
-      <h1 class="title">About me</h1>
+      <h1 className="title">About me</h1>
     </header>
   );
 }
